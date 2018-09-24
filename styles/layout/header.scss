@@ -1,0 +1,35 @@
+/** Header **/
+.free-shipping {
+	.telephone {
+		margin-left: 15px;
+	}
+}
+
+/** Navigation **/
+#main-navigation>li>a {
+	font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
+}
+
+.mega-menu {
+	.nav-header {
+		display: none !important;
+	}
+
+	a {
+		font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif !important;
+		font-weight: normal !important;
+	}
+}
+
+#slider {
+	.item-text {
+		width: 40%;
+	}
+	
+	h2 {
+		font-weight: normal !important;
+		@media (min-width: 1200px) {
+			font-size: 48px !important;
+		}
+	}
+}
